@@ -1,26 +1,27 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
+int SmallestElement(int arr[], int n)
+{
+    int min = arr[0];
 
-int SmallestElement(int arr[], int n) {
-    int min = arr[0];  
-
-    
-    for (int i = 1; i < n; i++) {
-        if (min > arr[i]) { 
+    for (int i = 1; i < n; i++)
+    {
+        if (arr[i] < min)
+        {
             min = arr[i];
         }
     }
 
-    return min;  
+    return min;
 }
 
-int main() {
-    
-    int arr1[] = {2, 5, 1, 3, 0};  
-    int n = 5;  
+int main()
+{
 
-    
+    int arr1[] = {1, 5, 9, -1, 7, -6};
+    int n = 6;
+
     int min = SmallestElement(arr1, n);
     cout << "The smallest element in the array is: " << min << endl;
 
