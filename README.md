@@ -1,1 +1,1 @@
-coding problems fro tcs nqt 
+coding problems for tcs nqt 
