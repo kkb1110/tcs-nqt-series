@@ -6,3 +6,6 @@
 
 # Ignore compiled binaries
 *.out
+
+#to try out ideas and theories
+test.cpp
