@@ -6,8 +6,8 @@ void insertionsort(vector<int>& arr){
 
     for(int i=1;i<n;i++){
         int newElem=arr[i];
-        int j=i-1;
-        for( ;j>=0 && arr[j]>newElem;j--){
+        ;
+        for( int j=i-1;j>=0 && arr[j]>newElem;j--){
             arr[j+1]=arr[j];
             
         }
